@@ -18,7 +18,8 @@
     "name": "Docker-Homebridge-Hass",
     "options": {},
     "schema": {},
-    "services": {},
+    "services": [
+    ],
     "slug": "docker-homebridge",
     "upstream": "0.1a",
     "url": "https://github.com/zimmra/docker-homebridge-hass",
