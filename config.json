@@ -1,0 +1,26 @@
+{
+    "arch": [
+      "aarch64",
+      "amd64",
+      "armv7",
+      "armhf"
+    ],
+    "boot": "auto",
+    "host_network": true,
+    "hassio_api": true,
+    "host_dbus": true,
+    "usb": true,
+    "privileged": [
+      "NET_ADMIN"
+    ],
+    "description": "Home Assistant Community Add-on for Homebridge",
+    "map": ["config:rw", "share:rw"],
+    "name": "Docker-Homebridge-Hass",
+    "options": {},
+    "schema": {},
+    "services": {},
+    "slug": "docker-homebridge",
+    "upstream": "0.1a",
+    "url": "https://github.com/zimmra/docker-homebridge-hass",
+    "version": "0.1a"
+  }
